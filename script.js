@@ -22,7 +22,7 @@ list.appendChild(li);
 // 12) Loop over all of the lis inside the ol tag and give them a background color of "green".
 var olList = document.querySelectorAll("ol li")
 for(let i =0;i <olList.length;i++){
-    olList[i].style.backgroundcolor = "green";
+    olList[i].style.backgroundColor = "green";
 }
 // 13) Remove the div with a class of footer.
 document.querySelector(".footer").remove();
